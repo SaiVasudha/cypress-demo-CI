@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 require("dotenv").config();
 
 module.exports = defineConfig({
-  projectId: "hky1n6",
+  projectId: "vpdjbe",
   env: { ...process.env },
   e2e: {
     setupNodeEvents(on, config) {
